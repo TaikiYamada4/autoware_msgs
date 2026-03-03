@@ -16,6 +16,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RouteState.msg"
   "srv/ClearRoute.srv"
   "srv/SetLaneletRoute.srv"
+  "srv/SetLateralOffset.srv"
   "srv/SetPreferredPrimitive.srv"
   "srv/SetWaypointRoute.srv"
   DEPENDENCIES
